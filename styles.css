@@ -202,7 +202,7 @@ section .main-container {
   padding-left: 40px;
 } */
 .main-container .image {
-  width: 600px;
+  width: 500px;
   height: 80vh;
   border-radius: 100%;
   overflow: hidden;
