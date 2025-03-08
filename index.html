@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>B</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          <span>Bharath</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <a href="#home">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <a href="#about">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="#skills">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
+            <a href="#education">Education</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            <a href="#projects">Projects</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars menu-icon" onclick="hamburg()"></i>
+      </div>
+
+      <!-- Dropdown menu (Initially hidden) -->
+      <div class="dropdown">
+        <div class="dropdown-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <i class="fa-solid fa-xmark close-icon" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+    <section class="home" id="home">
+      <div class="main-container">
+        <div class="imagel">
+          <img
+            class="image"
+            src="bh2.jpg"
+            alt="profile-img"
+            data-aos="zoom-out"
+            data-aos-duration="1500"
+          />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+          >
+            Hey I'm <span>Bharath praveen kumer</span>
+          </h1>
+          <div
+            class="typewriter"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+          >
+            I'm a
+            <span class="typewriter-text"></span>
+          </div>
+          <p
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-delay="1100"
+          >
+            Motivated and enthusiastic B.Tech second-year student at Vishnu
+            Institute of Technology, seeking an internship opportunity to
+            enhance my skills in programming and software development. Eager to
+            learn and contribute to projects using my foundational knowledge in
+            various programming languages and web technologies.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/bharath-nedunuri-215084321/"    
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1300"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/SimhadriSrinivas"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1400"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://x.com/Srinusimhadrii"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1500"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1600"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+          <div
+            class="btn"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="1800"
+          >
+            <a href="mailto:simhadrisrinivas15@gmail.com">
+              <button>Mail me</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="content">
+        <div
+          class="title"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="1900"
+        >
+          <span>About Me</span>
+        </div>
+        <div class="about-details">
+          <div
+            class="left"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <img class="Simg" src="bharath.jpg" alt="img" />
+          </div>
+          <div class="right">
+            <div
+              class="topic"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-delay="200"
+            >
+              App development is MY Passion
+            </div>
+            <p
+              data-aos="flip-down"
+              data-aos-duration="1500"
+              data-aos-delay="300"
+            >
+              I am a second-year student at Vishnu Institute of Technology,
+              pursuing a B.Tech degree in Artificial Intelligence and Data
+              Science (AI & DS). I am passionate about app development and have
+              a strong foundation in programming languages like C, Java, and
+              Python. I am also proficient in web technologies like HTML, CSS,
+              and JavaScript. I am eager to learn and contribute to projects
+              that will help me enhance my skills and knowledge in software
+              development.
+            </p>
+            <div
+              class="button"
+              data-aos="zoom-in-right"
+              data-aos-duration="1500"
+              data-aos-delay="400"
+            >
+              <a href="./Simhadri srinivas.pdf">
+                <button class="btntext">View Resume</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1200">
+          <span>My Skills</span>
+        </div>
+        <div class="skills-details">
+          <div class="text">
+            <div
+              class="topic"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              Programming Languages
+            </div>
+            <p
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-delay="200"
+            >
+              I have a strong foundation in programming languages like C, Java,
+              and Python. I am proficient in writing code and solving problems
+              using these languages. I am also familiar with data structures and
+              algorithms, which help me write efficient and optimized code.
+            </p>
+            <div
+              class="experience"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-delay="600"
+            >
+              <div class="num">0</div>
+              <div class="exp">Year Of <br />experience</div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div
+                class="topic"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-delay="150"
+              >
+                HTML
+              </div>
+              <div
+                class="per"
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                data-aos-delay="300"
+              >
+                90%
+              </div>
+            </div>
+            <div class="box">
+              <div
+                class="topic"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-delay="150"
+              >
+                CSS
+              </div>
+              <div
+                class="per"
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                data-aos-delay="300"
+              >
+                80%
+              </div>
+            </div>
+            <div class="box">
+              <div
+                class="topic"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-delay="150"
+              >
+                JavaScript
+              </div>
+              <div
+                class="per"
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                data-aos-delay="300"
+              >
+                85%
+              </div>
+            </div>
+            <div class="box">
+              <div
+                class="topic"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-delay="150"
+              >
+                Python
+              </div>
+              <div
+                class="per"
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                data-aos-delay="300"
+              >
+                80%
+              </div>
+            </div>
+            <div class="box">
+              <div
+                class="topic"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-delay="150"
+              >
+                Java
+              </div>
+              <div
+                class="per"
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                data-aos-delay="300"
+              >
+                70%
+              </div>
+            </div>
+            <div class="box">
+              <div
+                class="topic"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-delay="150"
+              >
+                <h2>C</h2> 
+              </div>
+              <div
+                class="per"
+                data-aos="zoom-in"
+                data-aos-duration="1200"
+                data-aos-delay="300"
+              >
+                75%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="education" id="education">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1200">
+          <span>My Education</span>
+        </div>
+        <div class="education-details">
+          <div class="box">
+            <div class="icon">
+              <i
+                class="fa-solid fa-graduation-cap"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-delay="150"
+              ></i>
+            </div>
+            <div
+              class="topic"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="150"
+            >
+              B.Tech in AI & DS
+            </div>
+            <p data-aos="flip-up" data-aos-duration="1200" data-aos-delay="200">
+              I am currently pursuing a B.Tech degree in Artificial Intelligence
+              and Data Science (AI & DS) at Vishnu Institute of Technology. I am
+              passionate about AI and DS and have a strong foundation in
+              programming languages and web technologies.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i
+                class="fa-solid fa-graduation-cap"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-delay="200"
+              ></i>
+            </div>
+            <div
+              class="topic"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              Intermediate
+            </div>
+            <p data-aos="flip-up" data-aos-duration="1200" data-aos-delay="300">
+              I completed my intermediate education at Sri Chaitanya Junior
+              College, where I studied MPC (Mathematics, Physics, and
+              Chemistry). I scored 74% in my intermediate exams and received the
+              college's Best Student award.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i
+                class="fa-solid fa-graduation-cap"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-delay="250"
+              ></i>
+            </div>
+            <div
+              class="topic"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="250"
+            >
+              SSC
+            </div>
+            <p data-aos="flip-up" data-aos-duration="1200" data-aos-delay="400">
+              I completed my secondary education at Sri Chaitanya Techno School,
+              where I scored 9.8 GPA in my SSC exams. I was a diligent student
+              and actively participated in extracurricular activities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1200">
+          <span>My Projects</span>
+        </div>
+        <div class="projects-details">
+          <div class="box">
+            <img src="project1.jpg" alt="project" />
+            <div class="topic">E-Commerce Website</div>
+            <p>
+              I created an e-commerce website using HTML, CSS, and JavaScript.
+              The website allows users to browse products, add them to the cart,
+              and make purchases. I also implemented a search feature that
+              allows users to search for products based on keywords.
+            </p>
+            <a href="#"><button>View-project</button></a>
+          </div>
+          <div class="box">
+            <img src="project2.jpg" alt="project" />
+            <div class="topic">Weather App</div>
+            <p>
+              I developed a weather app using React Native that provides users
+              with real-time weather information. The app displays the current
+              weather conditions, temperature, and humidity levels of the user's
+              location. Users can also search for weather information in other
+              locations.
+            </p>
+            <a href="#"><button>View-project</button></a>
+          </div>
+          <div class="box">
+            <img src="project3.jpg" alt="project" />
+            <div class="topic">Blog Website</div>
+            <p>
+              I built a blog website using WordPress that allows users to create
+              and publish blog posts. The website features a user-friendly
+              interface that allows users to easily create, edit, and delete
+              blog posts. I also implemented a comment section that allows users
+              to interact with each other.
+            </p>
+            <a href="#"><button>View-project</button></a>
+          </div>
+          <div class="box">
+            <img src="project4.jpg" alt="project" />
+            <div class="topic">Mobile App</div>
+            <p>
+              I developed a mobile app using Android Studio that helps users
+              track their daily activities and set reminders for important
+              tasks. The app features a clean and intuitive interface that
+              allows users to easily add, edit, and delete tasks. Users can also
+              set reminders for tasks to ensure they are completed on time.
+            </p>
+            <a href="#"><button>View-project</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500">
+          <span>My Services</span>
+        </div>
+        <div class="boxes">
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <div class="icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="topic">Web Development</div>
+            <p>
+              I can create responsive and user-friendly websites using HTML,
+              CSS, and JavaScript. I can also work with frameworks like
+              Bootstrap and libraries like jQuery to enhance the functionality
+              of the website.
+            </p>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
+            <div class="icon">
+              <i class="fa-solid fa-mobile-android"></i>
+            </div>
+            <div class="topic">App Development</div>
+            <p>
+              I am passionate about app development and have experience in
+              creating mobile applications using Android Studio and Flutter. I
+              can create apps that are user-friendly and provide a seamless
+              experience to the users.
+            </p>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="600"
+          >
+            <div class="icon">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <div class="topic">Database Management</div>
+            <p>
+              I have experience in working with databases like MySQL and
+              MongoDB. I can create and manage databases efficiently and ensure
+              that the data is stored securely and retrieved quickly when
+              required.
+            </p>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="800"
+          >
+            <div class="icon">
+              <i class="fa-solid fa-camera"></i>
+            </div>
+            <div class="topic">Photography</div>
+            <p>
+              I have a passion for photography and enjoy capturing moments
+              through my lens. I have experience in various types of
+              photography, including landscape, portrait, and street
+              photography. My skills in photography allow me to create visually
+              appealing images that tell a story and evoke emotions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500">
+          <span>Contact Me</span>
+        </div>
+        <div class="contact-details">
+          <div class="text">
+            <div
+              class="topic"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-delay="200"
+            >
+              Let's Get In Touch
+            </div>
+            <p>
+              If you have any questions or would like to work together on a
+              project, feel free to contact me. I am always open to new
+              opportunities and collaborations.
+            </p>
+            <!-- <div class="call">
+                <h4 class="call-red"> <span style="color:red; font-size: 19px;">CALL :</span> 9000258071 </h4>
+            </div> -->
+            <button
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+              data-aos-delay="400"
+            >
+              Let's Chat
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="text">
+        <span
+          >Created By <a href="#">Bharath praveen kumer</a> | &copy; 2025 Bharath praveen kumer. All Rights
+          Reserved.
+        </span>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
